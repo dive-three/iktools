@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iktools_divethree"
+version = "0.1.1"
+authors = [
+  { name="DiveThree", email="24817611+diveonebot@users.noreply.github.com" },
+]
+description = "A toolkit for classroom management."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GPLv3 License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dive-three/iktools"
+"Bug Tracker" = "https://github.com/dive-three/iktools/issues"
+
